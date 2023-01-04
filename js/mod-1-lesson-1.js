@@ -148,17 +148,17 @@
 //  * 2. Розділити вагу на квадрат зросту. // звичайне ділення
 //  * 3. Округлити фінальний результат
 
-let weight = '86,5';
-let height = '1.76';
+// let weight = '86,5';
+// let height = '1.76';
 
-const weightInt = Number(weight.replace(',', '.'));
-const heightInt = Number(height.replace(',', '.'));
-console.log(weightInt);
-console.log(heightInt);
+// const weightInt = Number(weight.replace(',', '.'));
+// const heightInt = Number(height.replace(',', '.'));
+// console.log(weightInt);
+// console.log(heightInt);
 
-const heightPow = Math.pow(heightInt, 2);
-console.log(heightPow)
+// const heightPow = Math.pow(heightInt, 2);
+// console.log(heightPow)
 
-const bmi = weightInt / heightPow;
-const roundedBmi = bmi.toFixed(1);
-console.log(roundedBmi)
+// const bmi = weightInt / heightPow;
+// const roundedBmi = bmi.toFixed(1);
+// console.log(roundedBmi)
