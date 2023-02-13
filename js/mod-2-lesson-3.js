@@ -369,16 +369,16 @@ const fruits = ['🍎', '🍇', '🍑', '🍌', '🍋'];
 // console.log(new String('Hello, world!') === 'Hello, world!')
 // console.log(true + 34)
 
-using System;
-class program
-{
-     static void Main(string[] args)
-     {
-          int x = 8;
-          int b = 16;
-          int c = 64;
-          x /= c /= b;
-          Console.WriteLine(x + " " + b+ " " +c);
-          Console.ReadLine();
-     }
-}
+// using System;
+// class program
+// {
+//      static void Main(string[] args)
+//      {
+//           int x = 8;
+//           int b = 16;
+//           int c = 64;
+//           x /= c /= b;
+//           Console.WriteLine(x + " " + b+ " " +c);
+//           Console.ReadLine();
+//      }
+// }
