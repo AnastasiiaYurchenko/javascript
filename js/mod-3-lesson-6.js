@@ -135,8 +135,8 @@ const user = {
 
 // function createContact({name, email, list = 'default'}) {
 //   return {
-//     name, 
-//     email, 
+//     name,
+//     email,
 //     list,
 //     id: generateId(),
 //     createdAt: Date.now(),
@@ -175,24 +175,25 @@ const user = {
 // Напиши функцію `transformUsername(user)` так, щоб вона повертала новий об'єкт із властивістю
 // `fullName`, замість `firstName` та `lastName`.
 
-function transformUserName({ firstName, lastName, ...otherProps }) {
-  return {
-    ...otherProps,
-    fullName: `${firstName} ${lastName}`,
-  }
-}
+// function transformUserName({ firstName, lastName, ...otherProps }) {
+//   return {
+//     ...otherProps,
+//     fullName: `${firstName} ${lastName}`,
+//   }
+// }
 
-const user1 = {
-  id: 1,
-  firstName: 'Jacob',
-  lastName: 'Mercer',
-  email: 'j.mercer@mail.com',
-  friendCount: 40,
-  friends: {
-    Anton: 'best',
-    Ivan: 'so so'
-  }
-}
+// const user1 = {
+//   id: 1,
+//   firstName: 'Jacob',
+//   lastName: 'Mercer',
+//   email: 'j.mercer@mail.com',
+//   friendCount: 40,
+//   friends: {
+//     Anton: 'best',
+//     Ivan: 'so so'
+//   }
+// }
 
-const newUser = transformUserName(user1);
-console.log(newUser)
+// const newUser = transformUserName(user1);
+// console.log(newUser)
+
